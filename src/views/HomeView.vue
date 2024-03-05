@@ -1,5 +1,7 @@
 <template>
   <div class="home">
+    <!-- 顶部工具栏 -->
+    <ToolBar />
     <main>
       <!-- 左侧组件列表 -->
       <section class="left"></section>
@@ -11,6 +13,8 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ToolBar from '@/components/ToolBar.vue'
+</script>
 
 <style scoped></style>
