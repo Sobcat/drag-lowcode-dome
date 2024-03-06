@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+  <div class="toolbar-container">
+    <div class="toolbar">
+      
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts"></script>
