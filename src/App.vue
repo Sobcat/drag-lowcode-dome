@@ -1,5 +1,4 @@
 <template>
-  <header>drag-lowcode-dome</header>
   <RouterView />
 </template>
 
@@ -13,7 +12,7 @@ import { RouterView } from 'vue-router'
     'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
 }
 </style>
