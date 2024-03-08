@@ -7,6 +7,11 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    ComponentsList: typeof import('./src/components/ComponentsList.vue')['default']
+    Custom: typeof import('./src/components/custom-components/custom.vue')['default']
+    CustomComponents: typeof import('./src/components/custom-components/index.vue')['default']
+    CustomComponentsIndex: typeof import('./src/components/custom-components/CustomComponentsIndex.vue')['default']
+    Customndex: typeof import('./src/components/custom-components/Customndex.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']

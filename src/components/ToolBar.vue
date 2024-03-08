@@ -12,5 +12,10 @@
 
 <style scoped lang="less">
 .toolbar {
+  padding: 15px 10px;
+  white-space: nowrap;
+  overflow-x: auto;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
 }
 </style>
